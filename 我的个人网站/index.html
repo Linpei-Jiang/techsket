@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="css-file/index.css">
+  <title>Personal website</title>
+  <script src="https://kit.fontawesome.com/d9b27523ec.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <a href="#" class="回到顶部">
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+  <div style="background-image: url('图片/背景图片.JPG'); width: 100%;" class="background"></div>
+
+  <div class="header">
+    <div class="content">
+      <div class="content-box">
+        <div class="content-box-name">
+          <img style="background-image: url('图片/头像.JPG');" class="content-box-img"></img>
+          <p class="title">Personal website</p>
+        </div>
+        <div class="content-box-nav">
+          <a class="link" href="index.html" id="在">
+            <p>主页</p>
+          </a>
+          <a class="link2" href="日记.html">
+            <p>日记</p>
+          </a>
+          <a class="link3" href="年度相册.html">
+            <p>年度相册</p>
+          </a>
+          <a class="link4" href="关于我.html">
+            <p>关于我</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-header">
+    <div class="mobile-header-content">
+      <img style="background-image: url('图片/头像.JPG');" class="mobile-header-content-profile"></img>
+    </div>
+  </div>
+
+  <div class="mobile-menu">
+    <div class="mobile-menu-menu">
+      <ul>
+        <li><a href="#"></a>主页</li>
+        <li><a href="#"></a>日记</li>
+        <li><a href="#"></a>年度相册</li>
+        <li><a href="#"></a>关于我</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="top-moment">
+    <div class="top-moment-info">
+      <div class="top-moment-into-left">
+        <div class="top-moment-into-name">
+          <h1>年度精选视频</h1>
+        </div>
+        <img src="图片/年度精选视频.jpeg" class="top-moment-into-img"></img>
+        <button class="top-moment-into-info">了解更多</button>
+      </div>
+      <div class="top-moment-into-center">
+        <div class="top-moment-into-name">
+          <h1>年度精选照片</h1>
+        </div>
+        <img src="图片/年度精选照片.jpeg" class="top-moment-into-img"></img>
+        <button class="top-moment-into-info">了解更多</button>
+      </div>
+      <div class="top-moment-into-right">
+        <div class="top-moment-into-name">
+          <h1>年度精选时刻</h1>
+        </div>
+        <img src="图片/年度精选时刻.jpeg" class="top-moment-into-img"></img>
+        <button class="top-moment-into-info">了解更多</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="t" style="width: 100%; height: 1000px;margin-top: 30px; background-color: yellow;"></div>
+</body>
+<script>
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.回到顶部');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.background');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.mobile-header');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.mobile-header-content-profile');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.mobile-menu');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.content-box');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.content-box-img');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.content-box-name');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.logo');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.title');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.link');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.link2');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.link3');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.link4');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.intro');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.introLeft img');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.introRight');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+
+  document.addEventListener('scroll', () => {
+    const header = document.querySelector('.top-moment');
+
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  })
+</script>
+
+</html>
